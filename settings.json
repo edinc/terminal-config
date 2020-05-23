@@ -145,5 +145,161 @@
 
     // Add any keybinding overrides to this array.
     // To unbind a default keybinding, set the command to "unbound"
-    "keybindings": []
+    "keybindings": 
+    [
+        { "command": { "action": "splitPane", "split": "vertical", "profile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}" }, "keys": "alt+shift+plus" },
+        { "command": { "action": "splitPane", "split": "horizontal", "profile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}" }, "keys": "alt+shift+-" }
+    ]
+}
+// To view the default settings, hold "alt" while clicking on the "Settings" button.
+// For documentation on these settings, see: https://aka.ms/terminal-documentation
+
+{
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "defaultProfile": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
+    "theme": "dark",
+
+    "profiles":
+    {
+        "defaults":
+        {
+            // Put settings here that you want to apply to all profiles
+        },
+        "list":
+        [
+            {
+                // Make changes here to the powershell.exe profile
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "name": "PowerShell",
+                "commandline": "powershell.exe",
+                "hidden": false,
+                "colorScheme": "Campbell Powershell"
+            },
+            {
+                // Make changes here to the cmd.exe profile
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "name": "cmd",
+                "commandline": "cmd.exe",
+                "hidden": false
+            },
+            {
+                "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+                "hidden": false,
+                "name": "Linux WSL1",
+                "source": "Windows.Terminal.Wsl",
+                "colorScheme": "Tomorrow Night Eighties",
+                "fontFace": "Cascadia Mono PL",
+                "useAcrylic": true,
+                "acrylicOpacity": 0.40,
+                "tabTitle": "linux",
+                "cursorColor": "#ffc600",
+                "cursorShape": "vintage"
+            },
+            {
+                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "hidden": false,
+                "name": "Azure Cloud Shell",
+                "source": "Windows.Terminal.Azure"
+            },
+            {
+                "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+                "hidden": false,
+                "name": "PowerShell Core",
+                "source": "Windows.Terminal.PowershellCore",
+                "useAcrylic": true,
+                "acrylicOpacity": 0.80,
+                "colorScheme": "Solarized Dark"
+            },
+            {
+                "guid": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
+                "hidden": false,
+                "name": "Linux WSL2",
+                "source": "Windows.Terminal.Wsl",
+                "colorScheme": "One Half Dark",
+                "fontFace": "MesloLGS NF",
+                "useAcrylic": true,
+                "acrylicOpacity": 0.70,
+                "tabTitle": "linux",
+                "cursorColor": "#ffc600",
+                "cursorShape": "vintage",
+                "suppressApplicationTitle": true
+            }
+        ]
+    },
+
+    // Add custom color schemes to this array
+    "schemes": 
+    [
+           {
+            "name" : "One Half Dark",
+            "background" : "#0C0C0C",
+            "black" : "#0C0C0C",
+            "blue" : "#1170b5",
+            "brightBlack" : "#5A6374",
+            "brightBlue" : "#61AFEF",
+            "brightCyan" : "#56B6C2",
+            "brightGreen" : "#98C379",
+            "brightPurple" : "#C678DD",
+            "brightRed" : "#E06C75",
+            "brightWhite" : "#DCDFE4",
+            "brightYellow" : "#E5C07B",
+            "cyan" : "#56B6C2",
+            "foreground" : "#DCDFE4",
+            "green" : "#98C379",
+            "purple" : "#C678DD",
+            "red" : "#E06C75",
+            "white" : "#DCDFE4",
+            "yellow" : "#E5C07B"
+          },
+          {
+            "name": "Tomorrow Night Blue",
+            "black": "#000000",
+            "red": "#ff9da4",
+            "green": "#d1f1a9",
+            "yellow": "#ffeead",
+            "blue": "#bbdaff",
+            "purple": "#ebbbff",
+            "cyan": "#99ffff",
+            "white": "#ffffff",
+            "brightBlack": "#000000",
+            "brightRed": "#ff9da4",
+            "brightGreen": "#d1f1a9",
+            "brightYellow": "#ffeead",
+            "brightBlue": "#bbdaff",
+            "brightPurple": "#ebbbff",
+            "brightCyan": "#99ffff",
+            "brightWhite": "#ffffff",
+            "background": "#002451",
+            "foreground": "#ffffff"
+          },
+          {
+            "name": "Tomorrow Night Eighties",
+            "black": "#000000",
+            "red": "#f2777a",
+            "green": "#99cc99",
+            "yellow": "#ffcc66",
+            "blue": "#6699cc",
+            "purple": "#cc99cc",
+            "cyan": "#66cccc",
+            "white": "#ffffff",
+            "brightBlack": "#000000",
+            "brightRed": "#f2777a",
+            "brightGreen": "#99cc99",
+            "brightYellow": "#ffcc66",
+            "brightBlue": "#6699cc",
+            "brightPurple": "#cc99cc",
+            "brightCyan": "#66cccc",
+            "brightWhite": "#ffffff",
+            "background": "#2d2d2d",
+            "foreground": "#cccccc"
+          }
+    ],
+
+    // Add any keybinding overrides to this array.
+    // To unbind a default keybinding, set the command to "unbound"
+    "keybindings": 
+    [
+        { "command": { "action": "splitPane", "split": "vertical", "profile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}" }, "keys": "alt+shift+plus" },
+        { "command": { "action": "splitPane", "split": "horizontal", "profile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}" }, "keys": "alt+shift+-" }
+    ]
 }
