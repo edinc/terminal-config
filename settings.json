@@ -20,7 +20,8 @@
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "name": "PowerShell",
                 "commandline": "powershell.exe",
-                "hidden": false
+                "hidden": false,
+                "colorScheme": "Campbell Powershell"
             },
             {
                 // Make changes here to the cmd.exe profile
@@ -54,7 +55,8 @@
                 "name": "PowerShell Core",
                 "source": "Windows.Terminal.PowershellCore",
                 "useAcrylic": true,
-                "acrylicOpacity": 0.80
+                "acrylicOpacity": 0.80,
+                "colorScheme": "Solarized Dark"
             },
             {
                 "guid": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
