@@ -69,7 +69,8 @@
                 "acrylicOpacity": 0.70,
                 "tabTitle": "linux",
                 "cursorColor": "#ffc600",
-                "cursorShape": "vintage"
+                "cursorShape": "vintage",
+                "suppressApplicationTitle": true
             }
         ]
     },
