@@ -1,6 +1,6 @@
 # Windows Terminal with WSL2 and zsh
 
-The new Windows Terminal has a lot of new cool capabilities, like multiple tabs, panes, Unicode and UTF-8 character support, a GPU accelerated text rendering engine and much more. Combining it with WSL2, zsh shell and powerlevel10k brings the terminal experience to a whole new level. 
+The new Windows Terminal has a lot of new capabilities, like multiple tabs, panes, Unicode and UTF-8 character support, a GPU accelerated text rendering engine and much more. Combined with WSL2, zsh shell and powerlevel10k brings the terminal experience to a whole new level. 
 
 ![Windows Terminal WSL2](screenshots/terminal-config-1.png)
 
